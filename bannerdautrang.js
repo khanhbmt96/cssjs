@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://dungcu.asia' target='_blank'><img src='https://www.sieuthithietbi.com/upload/images/TS92035516(1).jpg' width='600px'/><br/> Thiết bị công nghiệp</a>Liên hệ 028 3868 6666 <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://dungcu.asia' target='_blank'><img src='https://www.sieuthithietbi.com/upload/images/TS92035516(1).jpg'/><br/> Thiết bị công nghiệp</a>Liên hệ 028 3868 6666 <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
